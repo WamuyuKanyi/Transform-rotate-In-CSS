@@ -1,0 +1,28 @@
+/* transform: translate(), rotate(), scale(), skew()
+/* The rotate() CSS function defines a transformation that rotates an element around a fixed point on the 2D plane, without deforming it. */
+/* rotate(angle)	Defines a 2D rotation, the angle is specified in the parameter	
+rotate3d(x,y,z,angle)	Defines a 3D rotation	
+rotateX(angle)	Defines a 3D rotation along the X-axis	
+rotateY(angle)	Defines a 3D rotation along the Y-axis	
+rotateZ(angle)	Defines a 3D rotation along the Z-axis */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: #ff0000;
+  
+}
+.two {
+  background: blue;
+ transform: rotateZ(45deg);
+}
+
+.three {
+  background: green;
+/* transform: rotateX(20deg); */
+transform: rotateY(60deg);
+}
